@@ -42,6 +42,7 @@ RDEPEND="
 DEPEND="${RDEPEND}"
 BDEPEND="
 	>=dev-libs/wayland-protocols-1.35
+	sys-devel/gettext
 	virtual/pkgconfig
 	man? ( app-text/scdoc )
 	test? ( dev-util/cmocka )
