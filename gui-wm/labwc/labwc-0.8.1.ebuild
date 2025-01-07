@@ -57,7 +57,7 @@ src_configure() {
 		$(meson_feature svg)
 		$(meson_feature icons icon)
 		$(meson_feature man man-pages)
-		$(meson_feature test test)
+		$(meson_feature test)
 		$(meson_feature static-analyzer static_analyzer)
 	)
 	meson_src_configure
